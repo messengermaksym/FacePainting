@@ -1,0 +1,16 @@
+{
+  "name": "face-painting-lviv",
+  "version": "1.0.0",
+  "description": "Professional face painting website — Lviv, Ukraine",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "keywords": ["face-painting", "aquagrim", "lviv"],
+  "author": "",
+  "license": "ISC"
+}
